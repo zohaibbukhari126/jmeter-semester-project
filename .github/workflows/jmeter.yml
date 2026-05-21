@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir -p results reports
           jmeter/bin/jmeter -n \
-            -t tests/load_test.jmx \
+            -t tests/Test_Plan.jmx \
             -l results/results.jtl \
             -e -o reports/
 
